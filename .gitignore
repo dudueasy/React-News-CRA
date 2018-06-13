@@ -1,0 +1,34 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production (will remain)
+# /build
+
+# production source.map
+/build/static/css/*.css.map
+/build/static/js/*.js.map
+
+# source
+/src
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/inspectionProfiles/Project_Default.xml
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/react-news-cra.iml
+.idea/workspace.xml
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
